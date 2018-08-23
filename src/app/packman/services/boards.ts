@@ -122,7 +122,7 @@ initBoard(ctx){
      //******  Learning ********//
     //For L //
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(16,232,108,1)";
+    ctx.strokeStyle ="rgba(60,167,235,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -204,7 +204,7 @@ initBoard(ctx){
 
     //  start N //
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(243,51,209,1)";
+    ctx.strokeStyle ="rgba(88,169,244,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -261,7 +261,7 @@ initBoard(ctx){
 
     //  start G //
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(16,232,108,1)";
+    ctx.strokeStyle ="rgba(64,178,244,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -372,7 +372,7 @@ initBoard(ctx){
     // *******End of Mate*********//
 
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -389,7 +389,7 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -406,7 +406,7 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -415,7 +415,7 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -424,7 +424,7 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -433,7 +433,7 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -442,7 +442,7 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.strokeStyle ="rgba(70,86,240,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -459,7 +459,7 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.strokeStyle ="rgba(55,114,249,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -480,7 +480,7 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -495,7 +495,7 @@ initBoard(ctx){
     ctx.stroke();
     
     ctx.shadowColor ="rgba(0,0,0,0)";
-    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
