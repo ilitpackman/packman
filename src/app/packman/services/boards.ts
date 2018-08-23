@@ -119,7 +119,7 @@ initBoard(ctx){
     
 
 
-     //******  Learning ********//
+    //******  Learning ********//
     //For L //
     ctx.shadowColor ="rgba(0,0,0,0)";
     ctx.strokeStyle ="rgba(16,232,108,1)";
@@ -283,8 +283,7 @@ initBoard(ctx){
     // End G //
 
 
-
-
+    //******  Mate ********//
     // *** M start ** //
     ctx.shadowColor ="rgba(0,0,0,0)";
     ctx.strokeStyle ="rgba(35,218,245,1)";
@@ -292,22 +291,21 @@ initBoard(ctx){
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
-    ctx.moveTo(200, 480);
-    ctx.lineTo(200, 380);
-    ctx.lineTo(218, 380);
-    ctx.lineTo(238, 437);
-    ctx.lineTo(256, 380);
-    ctx.lineTo(274, 380);
-    ctx.lineTo(274, 480);
-    ctx.lineTo(256, 480);
-    ctx.lineTo(256, 445);
-    ctx.lineTo(247, 480);
-    ctx.lineTo(230, 480);
-    ctx.lineTo(218, 445);
-    ctx.lineTo(218, 480);
-    ctx.lineTo(200, 480);
+    ctx.moveTo(210, 480);
+    ctx.lineTo(210, 380);
+    ctx.lineTo(228, 380);
+    ctx.lineTo(248, 437);
+    ctx.lineTo(266, 380);
+    ctx.lineTo(284, 380);
+    ctx.lineTo(284, 480);
+    ctx.lineTo(266, 480);
+    ctx.lineTo(266, 445);
+    ctx.lineTo(257, 480);
+    ctx.lineTo(240, 480);
+    ctx.lineTo(228, 445);
+    ctx.lineTo(228, 480);
+    ctx.lineTo(210, 480);
     ctx.stroke();
-
     // ******** M end ***** //
 
     // *** A start ** //
@@ -317,19 +315,17 @@ initBoard(ctx){
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
-    ctx.moveTo(330, 480);
-    ctx.lineTo(330, 380);
-    ctx.lineTo(395, 380);
-    ctx.lineTo(395, 480);
-    ctx.lineTo(375, 480);
-    ctx.lineTo(375, 439);
-    ctx.lineTo(350, 439);
-    ctx.lineTo(350, 480);
-    ctx.lineTo(330, 480);
-    ctx.rect(350, 395, 25, 25);
-
+    ctx.moveTo(340, 480);
+    ctx.lineTo(340, 380);
+    ctx.lineTo(405, 380);
+    ctx.lineTo(405, 480);
+    ctx.lineTo(385, 480);
+    ctx.lineTo(385, 439);
+    ctx.lineTo(360, 439);
+    ctx.lineTo(360, 480);
+    ctx.lineTo(340, 480);
+    ctx.rect(360, 395, 25, 25);
     ctx.stroke();
-
     // ******** A end ***** //
 
     // *** T start ** //
@@ -339,18 +335,16 @@ initBoard(ctx){
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
-    ctx.moveTo(485, 480);
-    ctx.lineTo(485, 395);
-    ctx.lineTo(450, 395);
-    ctx.lineTo(450, 380);
-    ctx.lineTo(540, 380);
-    ctx.lineTo(540, 395);
-    ctx.lineTo(505, 395);
-    ctx.lineTo(505, 480);
-    ctx.lineTo(485, 480);
-
+    ctx.moveTo(495, 480);
+    ctx.lineTo(495, 395);
+    ctx.lineTo(460, 395);
+    ctx.lineTo(460, 380);
+    ctx.lineTo(550, 380);
+    ctx.lineTo(550, 395);
+    ctx.lineTo(515, 395);
+    ctx.lineTo(515, 480);
+    ctx.lineTo(495, 480);
     ctx.stroke();
-
     // ******** T end ***** //
 
     // *** E start ** //
@@ -360,23 +354,161 @@ initBoard(ctx){
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
-    ctx.moveTo(610, 480);
-    ctx.lineTo(610, 380);
-    ctx.lineTo(670, 380);
-    ctx.lineTo(670, 397);
-    ctx.lineTo(630, 397);
-    ctx.lineTo(630, 422);
-    ctx.lineTo(670, 422);
-    ctx.lineTo(670, 439);
-    ctx.lineTo(630, 439);
-    ctx.lineTo(630, 464);
-    ctx.lineTo(670, 464);
-    ctx.lineTo(670, 480);
-    ctx.lineTo(610, 480);
+    ctx.moveTo(620, 480);
+    ctx.lineTo(620, 380);
+    ctx.lineTo(680, 380);
+    ctx.lineTo(680, 397);
+    ctx.lineTo(640, 397);
+    ctx.lineTo(640, 422);
+    ctx.lineTo(680, 422);
+    ctx.lineTo(680, 439);
+    ctx.lineTo(640, 439);
+    ctx.lineTo(640, 464);
+    ctx.lineTo(680, 464);
+    ctx.lineTo(680, 480);
+    ctx.lineTo(620, 480);
+    ctx.stroke();
+    // ******** E end ***** //
+    // *******End of Mate*********//
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(52, 470);
+    ctx.lineTo(52, 420);
+    ctx.arcTo(52, 410, 67, 410, 10);
+    ctx.lineTo(82, 410);
+    ctx.arcTo(92, 410, 92, 425, 10);
+    ctx.lineTo(92, 470);
+    ctx.arcTo(92, 480, 77, 480, 10);
+    ctx.lineTo(67, 480);
+    ctx.arcTo(52, 480, 52, 465, 10);
     ctx.stroke();
 
-    // *******Mate*********//
-    /// end center
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(135, 410);
+    ctx.lineTo(135, 390);
+    ctx.arcTo(135, 380, 150, 380, 10);
+    ctx.lineTo(155, 380);
+    ctx.arcTo(165, 380, 165, 395, 10);
+    ctx.lineTo(165, 410);
+    ctx.arcTo(165, 420, 150, 420, 10);
+    ctx.lineTo(140, 420);
+    ctx.arcTo(135, 420, 135, 405, 10);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.rect(135, 460, 30, 23);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.rect(730, 380, 18, 38);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.rect(800, 428, 18, 50);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.rect(560, 440, 18, 60);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(150, 280);
+    ctx.lineTo(150, 280);
+    ctx.arcTo(150, 200, 155, 200, 10);
+    ctx.lineTo(160, 200);
+    ctx.arcTo(170, 200, 170, 215, 10);
+    ctx.lineTo(170, 280);
+    ctx.arcTo(170, 290, 155, 290, 10);
+    ctx.lineTo(155, 290);
+    ctx.arcTo(150, 290, 150, 275, 10);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(215, 300);
+    ctx.lineTo(215, 280);
+    ctx.lineTo(240, 280);
+    ctx.lineTo(240, 220);
+    ctx.lineTo(215, 220);
+    ctx.lineTo(215, 200);
+    ctx.lineTo(290, 200);
+    ctx.lineTo(290, 220);
+    ctx.lineTo(265, 220);
+    ctx.lineTo(265, 280);
+    ctx.lineTo(290, 280);
+    ctx.lineTo(290, 300);
+    ctx.lineTo(215, 300);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(600, 300);
+    ctx.lineTo(600, 210);
+    ctx.lineTo(680, 210);
+    ctx.lineTo(680, 250);
+    ctx.lineTo(625, 250);
+    ctx.lineTo(625, 300);
+    ctx.lineTo(600, 300);
+    ctx.stroke();
+    
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(680, 310);
+    ctx.lineTo(680, 285);
+    ctx.lineTo(720, 285);
+    ctx.lineTo(720, 210);
+    ctx.lineTo(745, 210);
+    ctx.lineTo(745, 310);
+    ctx.lineTo(680, 310);
+    ctx.stroke();
+
     ctx.closePath();
 }
 

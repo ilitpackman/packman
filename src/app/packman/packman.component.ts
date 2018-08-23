@@ -28,25 +28,31 @@ export class PackmanComponent implements AfterViewInit{
   }
 
   ngAfterViewInit(){
+
+    // Board
     let ctx: CanvasRenderingContext2D =
     this.canvasBoardRef.nativeElement.getContext('2d');
     this.canvasBoardRef.nativeElement.width  = 900;
-    this.canvasBoardRef.nativeElement.height = 550;
-    
-    // Board
+    this.canvasBoardRef.nativeElement.height = 550;  
     this.board.initBoard(ctx);
     this.board.drawBoardDoor(ctx);
     
     //bubbles
-
     let bubblesCtx:CanvasRenderingContext2D  =  
     this.canvasBubbleRef.nativeElement.getContext('2d');
-    this.bubbles.initBubbles();
-	  this.bubbles.drawBubbles();
+    this.canvasBubbleRef.nativeElement.width  = 900;
+    this.canvasBubbleRef.nativeElement.height = 550;
+
+    this.bubbles.initBubbles(bubblesCtx);
+	  this.bubbles.drawBubbles(bubblesCtx);
 
   }
 
   mouseEnter(){
+    console.log(event);
+  }
+
+  mouseEnter1(){
     console.log(event);
   }
 
