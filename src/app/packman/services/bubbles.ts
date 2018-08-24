@@ -3,7 +3,7 @@ export class Bubbles{
     public static BUBBLES_CANVAS_CONTEXT = null;
     public static BUBBLES_X_START:number = 30;
     public static BUBBLES_X_END:number = 868;
-    public static BUBBLES_GAP = ((Bubbles.BUBBLES_X_END - Bubbles.BUBBLES_X_START) / 18);
+    public static BUBBLES_GAP = ((Bubbles.BUBBLES_X_END - Bubbles.BUBBLES_X_START) / 24);
     public static BUBBLES_Y_START = 30;
     public static BUBBLES_Y_END = 522;
     public static BUBBLES_SIZE:any = 3;
@@ -185,6 +185,10 @@ export class Bubbles{
         // }else if((line==5) || (line==8)){
         //   return false ;
         // }else if()
+
+        if((line !=1 || line !=29)  && bubble==2){
+            return false ;
+        }
 
         console.log(line +" Bubble: "+ bubble);
         return true;
