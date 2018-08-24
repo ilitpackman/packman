@@ -372,7 +372,15 @@ initBoard(ctx){
     // *******End of Mate*********//
 
     ctx.shadowColor ="rgba(0,0,0,0)";
+<<<<<<< HEAD
     ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+<<<<<<< HEAD
+    ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+>>>>>>> b267e7297866384e789801f18eaff719328b8315
+>>>>>>> dd2a4022ff6742104ad0e085806566504783fd37
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -389,7 +397,15 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
+<<<<<<< HEAD
     ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+<<<<<<< HEAD
+    ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+>>>>>>> b267e7297866384e789801f18eaff719328b8315
+>>>>>>> dd2a4022ff6742104ad0e085806566504783fd37
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -406,7 +422,15 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
+<<<<<<< HEAD
     ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+<<<<<<< HEAD
+    ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+>>>>>>> b267e7297866384e789801f18eaff719328b8315
+>>>>>>> dd2a4022ff6742104ad0e085806566504783fd37
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -415,12 +439,110 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
+<<<<<<< HEAD
     ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+<<<<<<< HEAD
+    ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+>>>>>>> b267e7297866384e789801f18eaff719328b8315
+>>>>>>> dd2a4022ff6742104ad0e085806566504783fd37
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
     ctx.rect(730, 380, 18, 38);
+<<<<<<< HEAD
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.rect(800, 428, 18, 50);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.rect(560, 440, 18, 60);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(70,86,240,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(150, 280);
+    ctx.lineTo(150, 280);
+    ctx.arcTo(150, 200, 155, 200, 10);
+    ctx.lineTo(160, 200);
+    ctx.arcTo(170, 200, 170, 215, 10);
+    ctx.lineTo(170, 280);
+    ctx.arcTo(170, 290, 155, 290, 10);
+    ctx.lineTo(155, 290);
+    ctx.arcTo(150, 290, 150, 275, 10);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(55,114,249,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(215, 300);
+    ctx.lineTo(215, 280);
+    ctx.lineTo(240, 280);
+    ctx.lineTo(240, 220);
+    ctx.lineTo(215, 220);
+    ctx.lineTo(215, 200);
+    ctx.lineTo(290, 200);
+    ctx.lineTo(290, 220);
+    ctx.lineTo(265, 220);
+    ctx.lineTo(265, 280);
+    ctx.lineTo(290, 280);
+    ctx.lineTo(290, 300);
+    ctx.lineTo(215, 300);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(600, 300);
+    ctx.lineTo(600, 210);
+    ctx.lineTo(680, 210);
+    ctx.lineTo(680, 250);
+    ctx.lineTo(625, 250);
+    ctx.lineTo(625, 300);
+    ctx.lineTo(600, 300);
+    ctx.stroke();
+    
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(39,145,243,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(680, 310);
+    ctx.lineTo(680, 285);
+    ctx.lineTo(720, 285);
+    ctx.lineTo(720, 210);
+    ctx.lineTo(745, 210);
+    ctx.lineTo(745, 310);
+    ctx.lineTo(680, 310);
+    ctx.stroke();
+    /// end center
+=======
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
@@ -509,6 +631,7 @@ initBoard(ctx){
     ctx.lineTo(680, 310);
     ctx.stroke();
 
+>>>>>>> b267e7297866384e789801f18eaff719328b8315
     ctx.closePath();
 }
 
