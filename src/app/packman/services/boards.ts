@@ -119,7 +119,7 @@ initBoard(ctx){
     
 
 
-     //******  Learning ********//
+    //******  Learning ********//
     //For L //
     ctx.shadowColor ="rgba(0,0,0,0)";
     ctx.strokeStyle ="rgba(60,167,235,1)";
@@ -127,13 +127,13 @@ initBoard(ctx){
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
-    ctx.moveTo(52,151);
-    ctx.lineTo(52,53);
-    ctx.lineTo(70,53);
-    ctx.lineTo(70,133);
+    ctx.moveTo(50,151);
+    ctx.lineTo(50,53);
+    ctx.lineTo(68,53);
+    ctx.lineTo(68,133);
     ctx.lineTo(108,133);
     ctx.lineTo(108,151);
-    ctx.lineTo(52,151);
+    ctx.lineTo(50,151);
     ctx.stroke();
     //  L  end //
 
@@ -167,16 +167,16 @@ initBoard(ctx){
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
-    ctx.moveTo(265,151);
-    ctx.lineTo(265,53);
-    ctx.lineTo(330,53);
-    ctx.lineTo(330,151);
-    ctx.lineTo(310,151);
-    ctx.lineTo(310,110);
-    ctx.lineTo(285,110);
-    ctx.lineTo(285,151);
-    ctx.lineTo(265,151);
-    ctx.rect(285, 70, 25, 25);
+    ctx.moveTo(260,151);
+    ctx.lineTo(260,53);
+    ctx.lineTo(325,53);
+    ctx.lineTo(325,151);
+    ctx.lineTo(305,151);
+    ctx.lineTo(305,110);
+    ctx.lineTo(280,110);
+    ctx.lineTo(280,151);
+    ctx.lineTo(260,151);
+    ctx.rect(280, 70, 25, 25);
     ctx.stroke();
     // End A //
 
@@ -209,17 +209,17 @@ initBoard(ctx){
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
-    ctx.moveTo(495,151);
-    ctx.lineTo(495,53);
-    ctx.lineTo(513,53);
-    ctx.lineTo(538,110);
-    ctx.lineTo(538,53);
-    ctx.lineTo(558,53);
-    ctx.lineTo(558,151);
-    ctx.lineTo(538,151);
-    ctx.lineTo(513,108);
-    ctx.lineTo(513,151);
-    ctx.lineTo(495,151);
+    ctx.moveTo(510,151);
+    ctx.lineTo(510,53);
+    ctx.lineTo(530,53);
+    ctx.lineTo(553,110);
+    ctx.lineTo(553,53);
+    ctx.lineTo(573,53);
+    ctx.lineTo(573,151);
+    ctx.lineTo(553,151);
+    ctx.lineTo(528,108);
+    ctx.lineTo(528,151);
+    ctx.lineTo(510,151);
     ctx.stroke();
     // End N //
 
@@ -230,11 +230,11 @@ initBoard(ctx){
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
-    ctx.moveTo(605,151);
-    ctx.lineTo(605,53);
-    ctx.lineTo(625,53);
-    ctx.lineTo(625,151);
-    ctx.lineTo(605,151);
+    ctx.moveTo(615,151);
+    ctx.lineTo(615,53);
+    ctx.lineTo(635,53);
+    ctx.lineTo(635,151);
+    ctx.lineTo(615,151);
     ctx.stroke();
     // End I //
 
@@ -245,17 +245,17 @@ initBoard(ctx){
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
-    ctx.moveTo(675,151);
-    ctx.lineTo(675,53);
-    ctx.lineTo(693,53);
-    ctx.lineTo(718,110);
-    ctx.lineTo(718,53);
-    ctx.lineTo(738,53);
-    ctx.lineTo(738,151);
-    ctx.lineTo(718,151);
-    ctx.lineTo(693,108);
-    ctx.lineTo(693,151);
-    ctx.lineTo(675,151);
+    ctx.moveTo(680,151);
+    ctx.lineTo(680,53);
+    ctx.lineTo(698,53);
+    ctx.lineTo(723,110);
+    ctx.lineTo(723,53);
+    ctx.lineTo(743,53);
+    ctx.lineTo(743,151);
+    ctx.lineTo(723,151);
+    ctx.lineTo(698,108);
+    ctx.lineTo(698,151);
+    ctx.lineTo(680,151);
     ctx.stroke();
     // End N //
 
@@ -372,7 +372,11 @@ initBoard(ctx){
     // *******End of Mate*********//
 
     ctx.shadowColor ="rgba(0,0,0,0)";
+<<<<<<< HEAD
     ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+>>>>>>> b267e7297866384e789801f18eaff719328b8315
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -389,7 +393,11 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
+<<<<<<< HEAD
     ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+>>>>>>> b267e7297866384e789801f18eaff719328b8315
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -406,7 +414,11 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
+<<<<<<< HEAD
     ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+>>>>>>> b267e7297866384e789801f18eaff719328b8315
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
@@ -415,12 +427,17 @@ initBoard(ctx){
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
+<<<<<<< HEAD
     ctx.strokeStyle ="rgba(39,145,243,1)";
+=======
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+>>>>>>> b267e7297866384e789801f18eaff719328b8315
     ctx.lineWidth = 1;
     ctx.lineCap = "butt";
     ctx.lineJoin = "miter";
     ctx.beginPath();
     ctx.rect(730, 380, 18, 38);
+<<<<<<< HEAD
     ctx.stroke();
 
     ctx.shadowColor ="rgba(0,0,0,0)";
@@ -509,6 +526,96 @@ initBoard(ctx){
     ctx.lineTo(680, 310);
     ctx.stroke();
     /// end center
+=======
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.rect(800, 428, 18, 50);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.rect(560, 440, 18, 60);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(160, 280);
+    ctx.lineTo(160, 280);
+    ctx.arcTo(160, 200, 165, 200, 10);
+    ctx.lineTo(170, 200);
+    ctx.arcTo(180, 200, 180, 215, 10);
+    ctx.lineTo(180, 280);
+    ctx.arcTo(180, 290, 165, 290, 10);
+    ctx.lineTo(165, 290);
+    ctx.arcTo(160, 290, 160, 275, 10);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(225, 300);
+    ctx.lineTo(225, 280);
+    ctx.lineTo(250, 280);
+    ctx.lineTo(250, 220);
+    ctx.lineTo(225, 220);
+    ctx.lineTo(225, 200);
+    ctx.lineTo(300, 200);
+    ctx.lineTo(300, 220);
+    ctx.lineTo(275, 220);
+    ctx.lineTo(275, 280);
+    ctx.lineTo(300, 280);
+    ctx.lineTo(300, 300);
+    ctx.lineTo(225, 300);
+    ctx.stroke();
+
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(610, 300);
+    ctx.lineTo(610, 210);
+    ctx.lineTo(675, 210);
+    ctx.lineTo(675, 250);
+    ctx.lineTo(635, 250);
+    ctx.lineTo(635, 300);
+    ctx.lineTo(610, 300);
+    ctx.stroke();
+    
+    ctx.shadowColor ="rgba(0,0,0,0)";
+    ctx.strokeStyle ="rgba(224,47,180,1)";
+    ctx.lineWidth = 1;
+    ctx.lineCap = "butt";
+    ctx.lineJoin = "miter";
+    ctx.beginPath();
+    ctx.moveTo(680, 310);
+    ctx.lineTo(680, 285);
+    ctx.lineTo(720, 285);
+    ctx.lineTo(720, 210);
+    ctx.lineTo(745, 210);
+    ctx.lineTo(745, 310);
+    ctx.lineTo(680, 310);
+    ctx.stroke();
+
+>>>>>>> b267e7297866384e789801f18eaff719328b8315
     ctx.closePath();
 }
 

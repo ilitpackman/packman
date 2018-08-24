@@ -4,15 +4,15 @@
     Welcome to {{ title }}!
   </h1>
   <div id="board">
-      <canvas #canvasboard (click)="mouseEnter(e)"></canvas>
-      <canvas #canvaspaths></canvas>
-      <canvas #canvasbubbles></canvas>
-      <canvas #canvasfruits></canvas>
-      <canvas #canvaspacman></canvas>
-      <canvas #canvasghostblinky></canvas>
-      <canvas #canvasghostpinky></canvas>
-      <canvas #canvasghostinky></canvas>
-      <canvas #canvasghostclyde></canvas>
+      <canvas #canvasboard (click)="mouseEnter(e)" id="canvas-board"></canvas>
+      <canvas #canvaspaths id="canvas-paths"></canvas>
+      <canvas #canvasbubbles id="canvas-bubbles" (click)="mouseEnter1(e)"></canvas>
+      <canvas #canvasfruits id="canvas-fruits"></canvas>
+      <canvas #canvaspacman id="canvas-pacman"></canvas>
+      <canvas #canvasghostblinky id="canvas-ghost-blinky"></canvas>
+      <canvas #canvasghostpinky id="canvas-ghost-pinky"></canvas>
+      <canvas #canvasghostinky id="canvas-ghost-inky"></canvas>
+      <canvas #canvasghostclyde id="canvas-ghost-clyde"></canvas>
       <div id="control-up-big"></div>
       <div id="control-down-big"></div>
       <div id="control-left-big"></div>

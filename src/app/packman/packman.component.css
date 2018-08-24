@@ -1,4 +1,13 @@
 #board{
 	margin: auto;
-    width: 50%;
+	position: relative;
+}
+
+#board, #canvas-board, #canvas-paths, #canvas-fruits, #canvas-pacman, #canvas-bubbles, #canvas-ghost-blinky, #canvas-ghost-pinky, #canvas-ghost-inky, #canvas-ghost-clyde { 
+	width: 900px;
+	height: 550px;
+	position: absolute;
+}
+#canvas-paths{ 
+	display: none;
 }
